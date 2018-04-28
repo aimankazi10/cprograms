@@ -43,7 +43,7 @@ int main()
       printf("\n"); 
     }
     
-    printf("/n");
+    printf("\n");
     printf("Transpose operation begins\n");
     // Perform the tranpose operation
     for (c = 0; c < m; c++)

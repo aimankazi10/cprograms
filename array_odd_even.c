@@ -17,7 +17,7 @@ int main()
     printf("Enter the elements of an array");   
     for(i = 0; i < n; i++)
     {
-        scanf("%d",& array[i]);
+        scanf("%d", &array[i]);
     }  
     printf("Displaying the elements of an array\n");       
     for(i = 0; i < n; i++)

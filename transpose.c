@@ -12,13 +12,13 @@
 
 int main()
 {
-    int m;
-    int n;
-    int c;
-    int d;
+    int m; // accept user input for rows
+    int n; // accept user input for columns
+    int c; // outer loop counter
+    int d; // inner loop counter
     int matrix[10][10];
-    int transpose[10][10];
 
+    // declare transposeFunc
     void transposeFunc(int matrix[10][10], int m , int n);
 
     printf("Enter the number of rows and columns of matrix:\n");
@@ -44,11 +44,11 @@ int main()
     }
     
     printf("\n");
-
+    // call transposeFunc
     transposeFunc(matrix, m, n);
    
 }
-
+// Define transposeFunc
 void transposeFunc (int matrix[10][10], int m , int n)
 {
     printf("Inside transpose function\n");
