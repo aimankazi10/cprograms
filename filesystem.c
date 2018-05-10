@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     char c = ' ';
 
     // opening a file
-    fp = fopen("abc.txt","w");
+    fp = fopen("abc.txt","a");
     printf("write data to be stored in a file and once completed press full stop.\n");
 
     // checking for the '.' to end the file write
