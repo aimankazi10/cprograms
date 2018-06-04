@@ -11,11 +11,13 @@
 
 int main(void)
 {
-    int arr[5] = {5,1,7,3,9};
+    int arr[] = {5,1,7,3,9};
 
    printf("Size of integer in this compiler is %u\n", sizeof(int));
+   printf("Size of array is %u.\n", sizeof(arr));
 
    // Size of integer in this compiler is 4
+   // Size of array is 20.
 
    
    for(int i = 0; i < 5; i++)
