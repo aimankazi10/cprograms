@@ -13,7 +13,10 @@ int main(void)
     int arr[2] = {5,1};
     
     printf("%d \n", arr[1]);
+    
     printf("%d \n", arr[2]);
+    
+    // There is no index out of bound exception in C programming
     
     return 0;
 }
