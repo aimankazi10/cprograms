@@ -1,5 +1,5 @@
 /* WAP to perform transpose using a transpose function
- * Filename: transpose.c
+ * Filename: tra.nspose.c
  * Path: /home/diamond/cprograms
  * Created Date: Saturday, April 28th 2018, 4:58:12 pm
  * Author: Aiman Kazi
